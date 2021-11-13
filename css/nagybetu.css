@@ -1,0 +1,105 @@
+/*****************************************
+        ----NAGYBETUS STILUS----
+*****************************************/
+
+@import url('alap.css');
+
+a#nagybetu {display: none;}
+a#normalbetu {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+nav#gyengenlato{
+    font-size: 250%;
+    background-color: #ffffff;
+    border: solid 3px #000;
+}
+
+.menu a{
+    font-size: 200%;
+}
+
+details > p, details > summary{
+    font-size: 150%;
+    max-width: 80%;
+}
+
+.row > h2{
+    font-size: 250%;
+}
+
+.text p, .text ul li{
+    font-size: 150%;
+}
+
+.container, .container_2{
+    display: inline-block;
+    margin: auto;
+}
+
+.container p, .container_2 p{
+    font-size: 150%;
+    margin: 5%;
+}
+
+.container ul, .container_2 ul{
+    font-size: 150%;
+}
+
+.main_img, .main_img_2{
+    display: block;
+    max-width: 500px;
+    float: unset;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_section > p{
+    font-size: 150%;
+}
+
+table tr.t_first_row{
+    font-size: 150%;
+}
+
+table tr.t_third_row{
+    font-size: 150%;
+}
+
+footer img{
+    width: 150px;
+}
+
+button{
+    font-size: 150%;
+}
+
+button:hover{
+    font-size: 150%;
+}
+
+textarea, legend{
+    font-size: 200%;
+}
+
+form label{
+    font-size: 150%;
+}
+
+input[type=checkbox], input[type=radio]{
+    transform: scale(1.5);
+}
+
+.send label{ font-size: 150%;}
+
+.submit, .reset{ font-size: 150%;}
+
+@media screen and (max-width: 1315px){
+    nav#gyengenlato{
+        font-size: 200%;
+        background-color: #ffffff;
+        border: solid 3px #000;
+    }
+}

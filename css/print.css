@@ -1,0 +1,94 @@
+#main{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    display: none;
+}
+
+header{
+    display: none;
+}
+
+footer{
+    display: none;
+}
+
+.start img{
+    display: none;
+}
+
+.video_box{
+    display: none;
+}
+
+.normal_h1{
+    display: block;
+    color: #000;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    font-size: 60px;
+    text-shadow: 0 0;
+    padding: 0;
+    margin: auto 5%;
+}
+
+aside{
+    display: none;
+}
+
+.zaszlo{
+    display: none;
+}
+
+.container, .container_2{
+    display:block;
+}
+
+.container p, .container_2 p{
+    margin: 5% 0;
+    width: 100%;
+}
+
+.container_2 p{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container ul, .container_2 ul{
+    float: none;
+    display: block;
+    margin: 2% 20%;
+}
+
+.main_img, .main_img_2{
+    float: unset;
+    width: auto;
+    height: auto;
+    max-height: 200px;
+    margin: 10px auto 10px auto;
+    align-self: center;
+    display: block;
+    align-content: center;
+}
+
+table img{
+   width: 70%;
+}
+
+.group1, .group2{
+    border-color: #000;
+    margin: auto 20%;
+}
+
+.group3{
+    border-color: #000;
+    margin: auto 5%;
+}
+
+legend{
+    color: #000;
+}

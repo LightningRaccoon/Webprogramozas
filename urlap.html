@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <title>Űrlap - AoE III: DE</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/alap.css" title="normal">
+    <link rel="alternate stylesheet" type="text/css" href="css/nagybetu.css" title="nagybetu">
+    <link rel="icon" href="Header/logo.png" type="image/png">
+    <script src="scripts/styleswitcher.js"></script>
+    <link rel="stylesheet" media="print" href="css/print.css">
+</head>
+<body>
+
+
+    <!--HEADER-->
+
+    <header id="normal">
+        <div class="title">
+            <a href="https://www.ageofempires.com/games/aoeiiide/" hreflang="en"><img src="Header/logo.png" alt="Logó" class="logo"></a>
+            <p>
+                Age of Empires III: Definitive Edition
+            </p>
+            <nav id="gyengenlato">
+                <a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetu'); return false;">[Aa]</a>
+                <a id="normalbetu"  href="#" onclick="setActiveStyleSheet('normal'); return false;">[Aa]</a>
+            </nav>
+        </div>
+    </header>
+    <header id="mobilehead">
+        <div class="title">
+            <p>
+                <span lang="en">Age of Empires III: Definitive Edition</span>
+            </p>
+        </div>
+    </header>
+    <nav class="menu">
+        <a href="index.html">Főoldal</a>
+        <a href="nemzetek.html" >Nemzetek</a>
+        <a href="tortenet.html" >Történet</a>
+        <a href="tippek.html" >Tippek</a>
+        <a class="active" href="urlap.html" >Űrlap</a>
+    </nav>
+
+
+    <!--MAIN-->
+
+    <main id="main">
+        <article>
+            <div class="start">
+                <h1 class="normal_h1">Űrlap</h1>
+                <img src="Űrlap/start.jpg" alt="Első kép" class="start_img">
+            </div>
+            <section class="row">
+                <hr>
+                <h2 class="form_text">Köszönöm hogy értékeled a weboldalom!<br>Milyen észrevételed van a weboldallal kapcsolatban?</h2>
+                <form method="POST" action="mailto:asdasd7@gmail.com" enctype="multipart/form-data">
+                    <label class="text_area" for="eszrevetel">Hogyan tetszett a weboldal?</label><br>
+                    <textarea id="eszrevetel" name="textarea1" placeholder="Ide írd a véleményed" cols="75" rows="10" maxlength="730" spellcheck="true"></textarea>
+                    <hr>
+                    <label class="text_area" for="eszrevetel2">Mi a véleményed a játékról?</label><br>
+                    <textarea id="eszrevetel2" name="textarea2" placeholder="Ide írd a véleményed" cols="75" rows="10" maxlength="730" spellcheck="true"></textarea>
+                    
+                    <hr>
+                    <fieldset class="group1">
+                        <legend>Hányasra értékeled az oldalt?</legend>
+                        <label for="1.1"><input id="1.1" type="radio" name="group1" value="1">1</label>
+                        <label for="1.2"><input id="1.2" type="radio" name="group1" value="2">2</label>
+                        <label for="1.3"><input id="1.3" type="radio" name="group1" value="3">3</label>
+                        <label for="1.4"><input id="1.4" type="radio" name="group1" value="4">4</label>
+                        <label for="1.5"><input id="1.5" type="radio" name="group1" value="5">5</label>
+                    </fieldset>
+                    <hr>
+                    <fieldset class="group2">
+                        <legend>Melyik oldalak tetszettek?</legend>
+                        <label for="2.1"><input id="2.1" type="radio" name="group2" value="1">1</label>
+                        <label for="2.2"><input id="2.2" type="radio" name="group2" value="2">2</label>
+                        <label for="2.3"><input id="2.3" type="radio" name="group2" value="3">3</label>
+                        <label for="2.4"><input id="2.4" type="radio" name="group2" value="4">4</label>
+                    </fieldset>
+                    <hr>
+                    <fieldset class="group3">
+                        <legend>Milyen fajta videójátékokkal játszol?</legend>
+                        <label for="3.1"><input id="3.1" type="checkbox" name="group3" value="Nem">Nem szoktam</label>
+                        <label for="3.2"><input id="3.2" type="checkbox" name="group3" value="RPG">RPG</label>
+                        <label for="3.3"><input id="3.3" type="checkbox" name="group3" value="Strategy">Strategy</label>
+                        <label for="3.4"><input id="3.4" type="checkbox" name="group3" value="Shooter">Shooter</label>
+                        <label for="3.5"><input id="3.5" type="checkbox" name="group3" value="Egyébb">Egyébb</label>
+                    </fieldset>
+                    <hr>
+                    <div class="send">
+                        <label for="Beleegyezes"><input id="Beleegyezes" type="checkbox" name="agreed" required>Beleegyezem abba, hogy a fentebb megadatott adatokat közvélemény-kutatás céljából rögzítsék és felhasználják.</label>
+                        <br>
+                        <input class="reset" type="reset" value="VISSZAÁLLÍTÁS">
+                        <input class="submit" type="submit" value="KÜLDÉS">
+                    </div>
+                </form>
+            </section>
+        </article>
+    </main>
+
+
+    <!--FOOTER-->
+
+    <footer>
+        <div class="footer">
+            <div class="footer_row">
+                <div class="footer_section">
+                    <p class="first">Készítette:<br><b>Székely Regő</b></p>
+                    <p class="first">@2021 Minden jog fenttartva</p>
+                </div>
+                <div class="footer_section">
+                    <p class="second">Van valamilyen észrevétele?<br>Esetleg véleménye a honlapról?<br><b>Töltse ki az űrlapot az alábbi gombra nyomva!</b></p>
+                    <a class="button" href="urlap.html">Kattints ide!</a>
+                </div>
+                <div class="footer_section">
+                    <p class="third">Eredeti weboldal:</p>
+                    <a href="https://www.ageofempires.com/games/aoeiiide/" hreflang="en"><img src="Footer/age-of-empires-icon-25.jpg" alt="Footer_logo"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

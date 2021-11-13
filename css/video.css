@@ -1,0 +1,27 @@
+body{
+    border: solid 4px #6e441c;
+    border-radius: 16px;
+    background-color: #f8e2b6;
+    padding: 10px;
+    margin: auto;
+    max-width: 1400px;
+    display: block;
+}
+
+p{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+}
+
+a{
+    color: blue;
+}
+
+a:hover{
+    color: white;
+}
+
+a:visited{
+    color: purple;
+}
